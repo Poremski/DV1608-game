@@ -96,3 +96,6 @@ metric: phploc
 
 serve:
 	docker-compose up apache
+
+shell:
+	docker-compose run php bash
